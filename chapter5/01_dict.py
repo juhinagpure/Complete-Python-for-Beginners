@@ -3,4 +3,4 @@ marks = {
     "shubham": "56",
     "Rohan": 78,
 }
-print(marks, type(marks))
+print(marks,type(marks))
