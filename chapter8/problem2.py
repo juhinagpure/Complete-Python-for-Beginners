@@ -4,4 +4,4 @@ def f_to_c(f):
 
 f=int(input("Enter temperature in Fahrenheit: "))
 
-print("Temperature in Celsius:", f_to_c(f))
+print("Temperature in Celsius:", round(f_to_c(f), 2)) 
