@@ -5,3 +5,4 @@ class Employee:
 
 harry = Employee()
 print(harry.name, harry.language)
+print(harry.salary)
