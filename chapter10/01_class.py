@@ -4,7 +4,7 @@ class Employee:
     salary = 1200000
 
 harry = Employee()
-harry.name="Harry" # object attribute
+harry.name="Harry" # object attribute or instance attribute
 print(harry.name, harry.language, harry.salary)
 
 
