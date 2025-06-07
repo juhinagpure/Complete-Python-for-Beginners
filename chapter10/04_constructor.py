@@ -5,6 +5,10 @@ class Employee:
     language = "Python"
     salary = 1200000
 
+    # Constructor method (called automatically when object is created)
+    def __init__(self): #dunder method which is automatically called
+        print("I am creating an object")
+
     # Instance method to print info
     def getInfo(self):
         # Accessing attributes using 'self'
@@ -15,11 +19,11 @@ class Employee:
     def greet():
         print("Hello Good morning")
 
-# Creating an object of Employee class
+# Create an object of Employee class
 harry = Employee()
 
-# Call the instance method using object
-harry.getInfo()
+# Assigning a new value to the instance attribute 'name'
+harry.name = "Harry"
 
-# Call the static method using object (can also use Employee.greet())
-harry.greet()
+# ✅ Correct print syntax — remove quotes from variable names
+print(harry.name, harry.salary)
