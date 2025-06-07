@@ -19,6 +19,6 @@ class Train:
 
 # Example usage
 t = Train()
-t.book(12345, "Nagpur", "Delhi")
+t.book(12345, "pune", "Delhi")
 t.getStatus(12345)
-t.getFare(12345, "Nagpur", "Delhi")
+t.getFare(12345, "pune", "Delhi")
