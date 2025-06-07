@@ -11,4 +11,8 @@ class Programmer:
 p = Programmer("Harry", 1200000, 123456)
 
 # Printing values
-print(p.name, p.salary, p.pin)
+print(p.name,p.company, p.salary, p.pin)
+r = Programmer("Rohan", 1200000, 123456)
+print(r.name,r.company, r.salary, r.pin)
+
+
