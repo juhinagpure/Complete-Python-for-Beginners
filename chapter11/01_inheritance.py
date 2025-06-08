@@ -18,6 +18,6 @@ class programmer(Employee):
 
 
 a=Employee()
-b=Programmer()
+b=programmer()
 
 print(a.company,b.company)
