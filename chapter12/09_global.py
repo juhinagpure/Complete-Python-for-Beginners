@@ -1,4 +1,5 @@
 a=89
+
 def fun():
     # global a
     a=4
