@@ -1,5 +1,8 @@
 def myFunc():
     print("Hello world")
 
-myFunc()
-print(__name__)
+
+if __name__ == "__main__":
+    print("This code is executed directly")
+    myFunc()
+    print(__name__)
