@@ -1,6 +1,6 @@
 a=89
 def fun():
-    global a
+    # global a
     a=4
     print(a)
 
